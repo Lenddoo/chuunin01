@@ -1,7 +1,7 @@
 /*
-11. FaÁa um programa que peÁa uma nota, entre zero e dez. 
-Mostre uma mensagem caso o valor seja inv·lido e continue 
-pedindo atÈ que o usu·rio informe um valor v·lido.
+11. Fa√ßa um programa que pe√ßa uma nota, entre zero e dez. 
+Mostre uma mensagem caso o valor seja inv√°lido e continue 
+pedindo at√© que o usu√°rio informe um valor v√°lido.
 */
 programa {  
 	
@@ -13,12 +13,24 @@ programa {
     leia(nota)
 
     enquanto(nota < 0 ou nota > 10){
-      escreva(nota, " Nota inv·lida\n")
+      escreva(nota, " Nota inv√°lida\n")
       escreva("tente novamente: ")
       leia(nota)}
 
-      se(nota >= 0 ou nota <= 10){
-        escreva(nota, " Nota v·lida")
+     se(nota >= 0 ou nota <= 10){
+        escreva(nota, " Nota v√°lida")
       }
   }
 }
+
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta se√ß√£o do arquivo guarda informa√ß√µes do Portugol Studio.
+ * Voc√™ pode apag√°-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 427; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
